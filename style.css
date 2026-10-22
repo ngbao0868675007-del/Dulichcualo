@@ -18,3 +18,66 @@ ul.list-unstyled a {
     color: inherit;
     text-decoration: none;
 }
+.card-img-custom {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+}
+.card-title {
+    font-size: 1.1rem;
+}
+.card-text {
+    font-size: 0.9rem;
+}
+.rating-stars {
+    color: #ffc107;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.rating-stars i {
+    margin-right: 1px;
+}
+.card .btn {
+    white-space: nowrap;
+}
+.review-card {
+    background-color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+}
+
+.review-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #eee;
+}
+
+.rating-stars {
+    color: #ffc107;
+    font-size: 14px;
+}
+
+.rating-stars i {
+    margin: 0 1px;
+}
+
+.review-text {
+    color: #777;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.6;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
